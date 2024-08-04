@@ -1,0 +1,23 @@
+*{
+    font-family: "Gill Sans", serif; text-align: center;
+}
+img{
+    width: 500px; height: auto;
+}
+#landingBack{
+    background-image:url("https://t3.ftcdn.net/jpg/02/52/38/80/360_F_252388016_KjPnB9vglSCuUJAumCDNbmMzGdzPAucK.jpg");
+    height : 1000px;
+}
+#box{
+    background: skyblue; text-align: center; 
+    opacity: 0.9;
+    width: 600px; margin: 50px; height: 300px; padding: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+    border-radius: 25px;
+    position:fixed;
+}
+.recipe-head{
+    color: indianred;
+    background-color: burlywood;
+}
