@@ -1,6 +1,6 @@
 *{
     font-family: "Gill Sans", serif; text-align: center;
-    font-size: 35px;
+    font-size: 35px; padding: 0px;
 }
 
 img{
@@ -12,8 +12,18 @@ img{
 
 }
 .landingBack{
-    background-image:url("https://t3.ftcdn.net/jpg/02/52/38/80/360_F_252388016_KjPnB9vglSCuUJAumCDNbmMzGdzPAucK.jpg");
+    /* background-image:url("https://t3.ftcdn.net/jpg/02/52/38/80/360_F_252388016_KjPnB9vglSCuUJAumCDNbmMzGdzPAucK.jpg"); */
+    background-color: rgb(168, 211, 228);
 }
+.landingHeader{
+    border: 8px solid coral; 
+    height: 70px; font-size: 50px;
+    text-align: left;
+    background-color: beige;
+    margin-left:-8px; padding: 10px; font-family: "Papyrus", sans-serif;
+    
+}
+
 #box{
     background: skyblue; text-align: center; 
     opacity: 0.9;
@@ -26,11 +36,13 @@ img{
 .food#box{
     height: 800px;
     background-color: rgb(112, 218, 153);
-    text-align:inherit
-}
+    text-align:inherit; 
+    border-color: peru;
+    
+} 
 .recipe-head{
-    margin-top: 0; 
-    font-size: 50px; font-family:'Times New Roman', Times, serif
+    margin: 0; 
+    font-size: 50px; font-family:'Times New Roman', Times, serif;
     height: 100px;
     color: indianred;
     background-color: burlywood;
@@ -43,4 +55,39 @@ img{
 }
 .grilledCheeseBack{
     background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2206436.jpg&q=60&c=sc&poi=auto&orient=true&h=512");
+}
+.burgerBox{
+    display: block;
+    height: 335px;
+    background-color: rgb(228, 125, 125);
+    margin-left:-5px;
+    margin-top:0px;
+    text-align:left;
+    border: 8px solid brown;
+    
+}
+.pastaBox{
+    display: block;
+    background-color: wheat;
+    margin-left:-5px;
+    margin-top:0px; text-align:right;
+    border: 8px solid orange;
+    
+}
+.grilledCheeseBox{
+    background-color: burlywood;
+    margin-left:-5px;
+    margin-top:0px; 
+    text-align:left;
+    border: 8px solid greenyellow;
+
+    
+}
+.desc1{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110px;
+}
+.desc1.desc2{
+    /* margin-right: 200px; */
 }
