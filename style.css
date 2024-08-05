@@ -1,23 +1,46 @@
 *{
     font-family: "Gill Sans", serif; text-align: center;
+    font-size: 35px;
 }
+
 img{
     width: 500px; height: auto;
 }
-#landingBack{
+.back{
+    width: 100vw; height: 150vh;
+    background-size: cover;
+
+}
+.landingBack{
     background-image:url("https://t3.ftcdn.net/jpg/02/52/38/80/360_F_252388016_KjPnB9vglSCuUJAumCDNbmMzGdzPAucK.jpg");
-    height : 1000px;
 }
 #box{
     background: skyblue; text-align: center; 
     opacity: 0.9;
-    width: 600px; margin: 50px; height: 300px; padding: 50px;
-    margin-left: 350px;
-    margin-right: 350px;
+    width: 1000px; margin: 50px; height: 400px; padding: 50px;
+    margin-left: 200px;
+    margin-right: 150px;
     border-radius: 25px;
-    position:fixed;
+    
+}
+.food#box{
+    height: 800px;
+    background-color: rgb(112, 218, 153);
+    text-align:inherit
 }
 .recipe-head{
+    margin-top: 0; 
+    font-size: 50px; font-family:'Times New Roman', Times, serif
+    height: 100px;
     color: indianred;
     background-color: burlywood;
+}
+.burgerBack{
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/72883006/display_1500/stock-photo-gigantic-hamburger-on-white-background-fast-food-concept-72883006.jpg");
+}
+.pastaBack{
+    background-image: url("https://www.allrecipes.com/thmb/M2Ci7aik3JW3XboXuPD_-bmvVME=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/241920-easy-homemade-pasta-dough-ddmfs-4x3-c7172fe3104e43868f928c077d3a3397.jpg");
+}
+.grilledCheeseBack{
+    background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2206436.jpg&q=60&c=sc&poi=auto&orient=true&h=512");
 }
